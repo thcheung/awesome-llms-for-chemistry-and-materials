@@ -1,6 +1,6 @@
 # Awesome LLMs for Chemistry and Materials Science
 
-This repository curates high-quality research papers and datasets focused on the application of Large Language Models (LLMs) in chemistry and materials science. It emphasizes four key areas: **instruction-following**, **reasoning**, **multimodal**, and **agents**, each representing a critical aspect of advancing LLMs for scientific discovery. The resources include cutting-edge papers and datasets to guide researchers and enthusiasts in exploring LLMs' potential in these fields. Contributions are welcome via issues or pull requests.
+This repository curates high-quality research papers, codes, and datasets focused on the application of Large Language Models (LLMs) in chemistry and materials science. It emphasizes four key areas: **instruction-following**, **reasoning**, **multimodal**, and **agents**, each representing a critical aspect of advancing LLMs for scientific discovery. The resources include cutting-edge papers and datasets to guide researchers and enthusiasts in exploring LLMs' potential in these fields. Contributions are welcome via issues or pull requests.
 
 ## Table of Contents
 
