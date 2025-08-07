@@ -1,6 +1,6 @@
 # Awesome LLMs for Chemistry and Materials Science
 
-This repository curates high-quality research papers and resources focused on the application of Large Language Models (LLMs) in chemistry and materials science. It emphasizes four key areas: **instruction-following**, **reasoning**, **multimodal**, and **agents**, each representing a critical aspect of advancing LLMs for scientific discovery. The resources include cutting-edge papers and repositories to guide researchers and enthusiasts in exploring LLMs' potential in these fields. Contributions are welcome via issues or pull requests.
+This repository curates high-quality research papers and datasets focused on the application of Large Language Models (LLMs) in chemistry and materials science. It emphasizes four key areas: **instruction-following**, **reasoning**, **multimodal**, and **agents**, each representing a critical aspect of advancing LLMs for scientific discovery. The resources include cutting-edge papers and datasets to guide researchers and enthusiasts in exploring LLMs' potential in these fields. Contributions are welcome via issues or pull requests.
 
 ## Table of Contents
 
@@ -17,6 +17,7 @@ Instruction-following LLMs excel at executing precise tasks, such as predicting 
 - **Mol-Instructions: A Large-Scale Biomolecular Instruction Dataset for LLMs**  
   📄 [Paper](https://arxiv.org/abs/2306.08018)  
   🗂️ [Repository](https://github.com/Hzfu/Mol-Instructions)  
+  🗃️ [Dataset](https://huggingface.co/datasets/zjunlp/Mol-Instructions)  
   Published at ICLR 2024, this paper introduces Mol-Instructions, a dataset with 281,000 instructions enhancing LLMs' performance in biomolecular tasks like molecular property prediction and reaction analysis.
 
 - **LlaSMol: Advancing Large Language Models for Chemistry with a Large-Scale, Comprehensive, High-Quality Instruction Tuning Dataset**  
@@ -33,6 +34,7 @@ Reasoning LLMs tackle logical deductions and problem-solving in chemical context
 
 - **Beyond Chemical QA: Evaluating LLM's Chemical Reasoning with Modular Chemical Operations**  
   📄 [Paper](https://arxiv.org/abs/2505.21318)  
+  🗃️ [Dataset](https://huggingface.co/datasets/OpenMol/ChemCoTBench)  
   Introduces ChemCoTBench, a benchmark with 14,000 samples to evaluate LLMs' chemical reasoning through modular operations like molecule editing and reaction prediction.
 
 - **ChemDFM-R: A Chemical Reasoner LLM Enhanced with Atomized Chemical Knowledge**  
@@ -49,6 +51,7 @@ Multimodal LLMs integrate text, images, and molecular structures to perform task
 
 - **MolLangBench: A Comprehensive Benchmark for Language-Prompted Molecular Structure Recognition, Editing, and Generation**  
   📄 [Paper](https://arxiv.org/abs/2505.15054)  
+  🗃️ [Dataset](https://huggingface.co/datasets/ChemFM/MolLangBench)  
   A benchmark evaluating LLMs on molecular tasks using language prompts and visual inputs, highlighting challenges in SMILES validity and stereochemistry.
 
 - **Uni-Mol: A Universal 3D Molecular Representation Learning Framework**  
@@ -63,8 +66,9 @@ Multimodal LLMs integrate text, images, and molecular structures to perform task
 
 LLM-based agents autonomously perform tasks by interacting with tools, such as planning syntheses or controlling lab equipment, offering potential to automate chemical research.
 
-- **CheMatAgent: Enhancing LLMs for Chemistry and Materials Science through Tree-Search Based Tool Learning**  
+- **ChemMatAgent: Enhancing LLMs for Chemistry and Materials Science through Tree-Search Based Tool Learning**  
   📄 [Paper](https://arxiv.org/abs/2506.07551)  
+  🗃️ [Dataset](https://huggingface.co/datasets/RadiCat/ChemToolBench)  
   Introduces ChemMatAgent, an agent using Hierarchical Monte Carlo Tree Search (H-MCTS) and 137 chemical tools for tasks like reaction analysis.
 
 - **ChemCrow: Augmenting Large-Language Models with Chemistry Tools**  
